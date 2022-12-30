@@ -1,0 +1,14 @@
+# pins which exntension module is connected to (list)
+ext_pts:
+  - 35
+  - 34
+
+timings: # in seconds
+  pool_time: 0.5 # refresh states
+  long: 1.5
+  timeout: 5
+
+mapping:
+  short: "http://192.168.100.20:1880/megad?{args}"
+  long: "http://192.168.100.20:1880/megad?{args}"
+  unknown: "http://192.168.100.20:1880/megad?{args}"

@@ -1,0 +1,10 @@
+[Unit]
+Description = Longclick flask service
+
+[Service]
+WorkingDirectory = /usr/src/longclick
+ExecStart = /usr/src/longclick/start.sh
+
+[Install]
+WantedBy = multi-user.target
+
